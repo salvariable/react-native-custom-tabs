@@ -1,12 +1,12 @@
 apply plugin: "com.android.library"
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
@@ -14,7 +14,7 @@ android {
 
 dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
-    compile 'com.android.support:customtabs:25.0.1'
+    compile 'com.android.support:customtabs:26.1.0'
     compile ('com.github.droibit.customtabslauncher:launcher:1.0.8') {
         exclude module: 'customtabs'
     }
